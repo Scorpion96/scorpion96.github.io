@@ -1,0 +1,112 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url(../images/3-221.jpg);
+  background-position:center;
+  background-size: cover;
+  margin: 0;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+  color: #ADFF2F;
+}
+
+.page-description {
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  color: #ADFF2F;
+  font-family: Georgia, serif;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  margin: 20px;
+  border: 5px solid #FFF;
+}
+
+img {
+	height: 212;
+	width: 320;
+}
+
+.gallery-item .thumbnail {
+
+}
+
+/* NAVIGATION */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+  font-size: 18px;
+}
+
+nav ul {
+  display: inline;
+}
+
+
+.contact-btn {
+   float:right;
+
+}
+
+.contact-btn a {
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+a {
+	text-decoration:none;
+}
+
+
+nav img {
+  width: 32px;
+  height: 32px;
+  float: right;
+  padding: 20px;
+}
+
+li {
+	color: 	#ADFF2F;
+	font-size: 20px;
+	font-family: Georgia, serif;
+	padding: 10px;
+}
