@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rafael Nadal</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js/pgwslider.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="css/pgwslider.min.css">
+</head>
+<body>
+
+<nav>
+      <ul>
+		<li><a href="index.html"><b>Main</b></a></li>
+        <li><a href="Photos.html">Photos</a></li>
+        <li><a href="Videos.html">Videos</a></li>
+        <li><a href="Biography.html">Biography</a></li>
+      </ul>
+    
+	  <ul>  
+		<li><a href="https://twitter.com/rafaelnadal"> <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"/> </a></li>
+		<li><a href="https://www.facebook.com/Nadal/"> <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"/> </a></li>
+		<li><a href="https://www.instagram.com/rafaelnadal/"> <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"/> </a>
+      </ul>  
+    </nav>
+    <header>
+      <h1 class="page-title">RAFAEL NADAL</h1>
+      <p class="page-description"><strong>Losing is not my enemy, fear of losing is my enemy.</strong></p>
+    </header>
+
+<div class="main">
+	<ul class="pgwSlider">
+		<li><img src="images/slide-1.jpg" alt="2004" data-description=""></li>
+		<li><img src="images/slide-2.jpg" alt="2005" data-large-src="images/slide-2.jpg"></li>
+		<li>
+			<img src="images/slide-3.jpg" alt="2006">
+			<span>2006</span>
+		</li>
+		<li>
+			<a href="http://google.com" target="_blank">
+				<img src="images/slide-4.jpg" alt="">
+				<span>2007</span>
+			</a>
+		</li>
+		<li>
+			<img src="images/slide-5.jpg" alt="">
+			<span>2008</span>
+		</li>
+		<li>
+			<img src="images/slide-6.jpg" alt="">
+			<span>2009</span>
+		</li>
+		<li>
+			<img src="images/slide-7.jpg" alt="">
+			<span>2010</span>
+		</li>
+		<li>
+			<img src="images/slide-8.jpg" alt="">
+			<span>2011</span>
+		</li>
+		<li>
+			<img src="images/slide-9.jpg" alt="">
+			<span>2012</span>
+		</li>
+		<li>
+			<img src="images/slide-10.jpg" alt="">
+			<span>2013</span>
+		</li>
+		<li>
+			<img src="images/slide-11.jpg" alt="">
+			<span>2014</span>
+		</li>
+		<li>
+			<img src="images/slide-12.jpg" alt="">
+			<span>2015</span>
+		</li>
+		<li>
+			<img src="images/slide-13.jpg" alt="">
+			<span>2016</span>
+		</li>
+	</ul>
+</div>
+
+
+<script>
+	$(document).ready(function() {
+		$('.pgwSlider').pgwSlider({
+			autoSlide: false,
+			displayControls: true
+		});
+	});
+</script>
+
+<script src="/_demo/demo.js"></script>
+</body>
+</html>
